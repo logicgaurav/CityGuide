@@ -33,5 +33,6 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(sydney))
             .setTitle("Sydney");
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
     }
 }
